@@ -1,4 +1,3 @@
-
 # 🎓 Mini E-Learning Platform
 
 ## 📖 Project Overview
@@ -65,7 +64,13 @@ If you want to expand it later, you can add:
 
 ---
 
+## 🌐 Live Demo
+🔗 **View the live project here:**  
+👉 [Mini E-Learning Platform](https://terrynyambura1738.github.io/week-1-AI-FOR-S-W-ENGINEERING/)
+
+---
+
 ## 👩‍🎓 Developer
 **Name:** Mugure Terry Nyambura  
 **Course:** Web Technologies (PLP Academy)  
-**Technologies:** HTML, CSS, JavaScript  
+**Technologies:** HTML, CSS, JavaScript
