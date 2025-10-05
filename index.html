@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LearnHub - E-Learning Platform</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎓 LearnHub</h1>
+            <p class="subtitle">Your journey to mastering new skills</p>
+        </header>
+
+        <!-- Home View -->
+        <div class="home-view active" id="homeView">
+            <div class="course-grid" id="courseGrid"></div>
+        </div>
+
+        <!-- Course Detail View -->
+        <div class="detail-view" id="detailView">
+            <div class="course-detail-page">
+                <button class="back-button" onclick="showHome()">← Back to Courses</button>
+                
+                <div class="detail-header">
+                    <div class="course-icon-large" id="courseIconLarge"></div>
+                    <h2 class="detail-title" id="detailTitle"></h2>
+                    <p class="detail-description" id="detailDescription"></p>
+                    <div class="course-meta" id="detailMeta"></div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="progressFill"></div>
+                    </div>
+                </div>
+
+                <!-- Course Content Section -->
+                <div class="course-content-section">
+                    <h3 class="section-title">📖 Course Information - Read Before Completing</h3>
+                    <div class="course-content" id="courseContent"></div>
+                </div>
+
+                <!-- Lessons Section -->
+                <div class="lessons-section">
+                    <h3 class="section-title">📚 Course Lessons</h3>
+                    <div id="lessonsList"></div>
+                </div>
+
+                <!-- Action Buttons -->
+                <div class="action-buttons">
+                    <button class="btn btn-primary" onclick="startCourse()">Start Learning</button>
+                    <button class="btn btn-success" id="completeBtn" onclick="toggleComplete()">Mark as Completed</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
